@@ -1,0 +1,90 @@
+body{
+	background-color: #006699;
+}
+div{
+	background-color: tomato;
+	font-size: 20px;
+	font-family: arial;
+}
+.p1{
+	background-color: green;
+
+}
+.p2{
+	background-color:tomato;
+}
+.p2 span{
+	font-weight: bold;
+	color:white;
+}
+a{
+	background-color: red;
+	display:inline;
+}
+
+ul li{
+	display: inline;
+	margin: 10px;
+}
+
+/* Sintak overflow */
+
+.content{
+	width:200px;
+	height:200px;
+	background-color:lightblue;
+	border:1px double white;
+	overflow:auto;
+	margin:0px,50px,50px,50px;
+}
+
+.content2{
+	width:200px;
+	height:200px;
+	background-color:lightgreen;
+	border:1px dashed black;
+	overflow:scroll;
+	margin:0px,50px,50px,50px;
+}
+
+/* Margin */
+.red{
+	background-color: red;
+	width: 250px;
+	height: 250px;
+	margin:10px;
+}
+
+.brown{
+	background-color: brown;
+	width: 250px;
+	height: 250px;
+	margin: 50px 40px 30px 20px;
+}
+
+.grey{
+	background-color: grey;
+	width: 250px;
+	height: 250px;
+	margin: 50px 30px 20px;
+}
+
+.yellow{
+	background-color: yellow;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+	margin-bottom:40px;
+	overflow: auto;
+	color: tomato;
+	padding-left:20px;
+	padding-right: 20px;
+	-moz-box-sizing:border-box; /* agar padding dan border tidak mempengaruhi width */
+}	
+#m1{
+	background-color: salmon;
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}

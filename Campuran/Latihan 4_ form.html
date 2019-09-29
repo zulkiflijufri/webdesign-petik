@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Formulir Online</title>
+	</head>
+	<body>
+<form name="Formulir Online">
+<table align="center" width="20%" cellpadding="5" cellspasing="5">
+	<Thead>
+		<tr bgcolor="grey">
+			<th colspan="2">Buku Tamu</th>
+			<!--th></th-->
+		</tr>
+	</Thead>
+	<Tbody>
+		<tr>
+			<td widht="30%">Nama</td>
+			<td><input type=text name="nama" size="30"  value=""/></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type=password name="pass" size="30" value="" /></td>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>
+			<input type=radio name="jk" value="p" />pria&nbsp;
+			<input type=radio name="jk" value="w" />wanita</td>
+		</tr>
+		<tr>
+			<td valign="top">Hobby</td>
+			<td>
+			<input type="checkbox" name="hobby" value="membaca" />Membaca<br><Input type="checkbox" name="hobby" value="Futsal" />Futsal<br>
+			<input type="checkbox" name="hobby" value="Gamers" />Gamers<br>
+			<input type="checkbox" name="hobby" value="Nikah" />Nikah<br>
+			<input type="checkbox" name="hobby" value="Nikah lagi" />Nikah Lagi
+			</td>
+		</tr>
+		<tr>
+			<td>Pendidikan</td>
+			<td><Select name="pddk">
+				<Option value=""> --Pilih Pendidikan-- </Option>
+				<option value="SMP">SMP</option>
+				<option value="SMA">SMA</option>
+				<option value="S1">S1</option>
+				<option value="S2">S2</option>
+				<option value="S3">S3</option>
+				</Select>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Komentar</td>
+			<td><textarea name="komen" cols="cols" rows="6"></textarea>
+			</td>
+		</tr>
+	</Tbody>
+	<Tfoot>
+		<tr bgcolor="grey">
+			<th colspan="2" align="center">
+			<input type="submit" nama="proses" value="kirim" />
+			<input type="reset" name="unproses" value="batal" />
+			<!--th></th-->
+		</tr>
+	</Tfoot>
+</body>
+</table>
+</form>
+</html>

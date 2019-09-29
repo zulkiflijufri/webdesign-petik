@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>RWD dengan CSS Query</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+
+
+    @media (min-width:100px) and (max-width: 600px){
+ 
+    #container{position:relative; margin:0px 20px;}
+ 
+    #header{position:relative; background:#0cf; padding:10px;}
+    #header .judul{font-size:30px; font-weight:bold;}
+    #header .menu{background:#333; color:#fff; padding:10px;}
+ 
+    #content{min-height:500px; position:relative;}
+    #content .isi{height:500px; position:relative; background:#def;}
+    #content .sidebar{height:200px; position:relative; background:#079;}
+ 
+    #footer{background:#000; color:#ccc; padding:10px; font-style:italic;}
+ 
+}
+</style>
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div class="judul">Judul Website</div>
+        <div class="menu">Home - Artikel - Gallery - Contact Us - About Us</div>
+    </div>
+    <div id="content">
+        <div class="isi"></div>
+        <div class="sidebar"></div>
+    </div>
+    <div id="footer">Copyright &copy; 2014 <br> Created by nama</div>
+</div>
+</body>
+</html>

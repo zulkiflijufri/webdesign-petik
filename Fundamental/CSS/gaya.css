@@ -1,0 +1,36 @@
+p{
+color:white; /* text dalam paragraf berwarna biru */
+text-shadow: 2px 2px maroon;
+text-indent:1cm;
+}
+h1{
+color:Orange;
+text-transform: uppercase;
+}
+fieldset{
+border:10px solid green;
+border-radius: 10px;
+background-image:url('../images/Pemandangan.jpg');
+background-size:cover;
+}
+hr{
+border-style: outset;
+border-color:red;
+}
+legend{
+border:5px solid red;
+background:green;
+color:white;
+padding:5px;
+border-radius: 25px;
+}
+body{
+margin:1cm 3cm;
+background-image: url(../images/123.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+sup{
+font-size:12pt;
+color:yellow;
+}

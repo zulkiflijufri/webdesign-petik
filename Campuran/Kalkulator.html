@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>KALKULATOR</title>
+		<script src="js/calc.js"></script>
+	</head>
+	<body>
+	<form action="#" method="POST" id="form">
+		<table border="0" align="center" cellpadding="10" Width="40%">
+			<thead>
+				<tr bgcolor="AliceBlue">
+					<th colspan="2">Kalkulatorku</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				
+				<tr>
+					<td width="30%"><label>Angka 1</label></td>
+					<td>
+						<input type="text" name="a1" value=""/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><label>Angka 2</label></td>
+					<td>
+						<input type="text" name="a2" value=""/>
+					</td>
+				</tr>
+				
+				<tr>
+					<td><label>Hasil</label></td>
+					<td>
+						<input type="text" name="hasil" value=""
+						       disabled />
+					</td>
+				</tr>
+				
+			
+			</tbody>
+			<tfoot>
+				<tr bgcolor="AliceBlue">
+					<th colspan="2">
+						<input type="button" name="proses" 
+						 value="+" onclick="tambah()"/>
+						&nbsp;&nbsp;
+						<input type="button" name="proses" 
+						 value="-" onclick="kurang()"/>
+						&nbsp;&nbsp;
+						<input type="button" name="proses" 
+						 value="/" onclick="bagi()"/>
+						&nbsp;&nbsp;
+						<input type="button" name="proses" 
+						 value="*" onclick="kali()"/>
+						&nbsp;&nbsp;
+						<input type="button" name="proses" 
+						 value="^" onclick="pangkat()"/>
+						&nbsp;&nbsp;
+						<input type="button" name="proses" 
+						 value="clear" onclick="kosongkan()"/>
+						&nbsp;&nbsp;
+					</th>
+				</tr>
+			</tfoot>
+		</table>
+	</form>
+	</body>

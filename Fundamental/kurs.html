@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Konversi kurs rupiah</title>
+	<script>
+		function hitungkurs()
+		{
+			var a=parseInt(hitung.input.value) 
+			var b=parseInt(hitung.valas.value)
+			if (a.lenght<=0 || isNaN(a)) {   //isNaN mengharuskan input angka
+				alert("Isi data dengan benar")
+			}
+			else
+			{
+				alert ("Anda Pilih" + hitung.valas.value)
+				var total=a*b
+				hitung.hasil.value=total
+			}
+		}
+	</script>
+</head>
+<body>
+	<div align="center"><h1>Konversi Kurs</h1></div>
+	<hr color="orange">
+<form name="hitung">
+	<fieldset>
+		<legend><font color="red"><i>Konversi dari Valuta Asing ke Rp</i></font></legend>
+<table>
+	<tr>
+		<td width="30%">Masukkan</td>
+		<td width="30%">Valas</td>
+		<td width="30%">Nilai Rupiah</td>
+	</tr>
+	<tr>
+		<td><input type="text" name="input" width="30%"></td>
+		<td><select name="valas" onchange="hitungkurs()">
+			<option value="15000">Euro</option>
+			<option value="3000">Ringgit</option>
+			<option value="13000">Dollar US</option>
+			<option value="20000">Riyal</option>
+			<option value="500">Yen</option>
+			</select>
+		</td>
+		<td><input type="text" name="hasil" width="30%" disabled=""></td>
+	</tr>
+</table>
+	</fieldset>
+</form>
+</body>
+</html>

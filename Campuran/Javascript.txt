@@ -1,0 +1,56 @@
+function tambah(){
+	//tangkap proses request form & casting / konversi tipe data
+	var frm = document.getElementById("form");
+	var angka1 = parseFloat(frm.a1.value);
+	var angka2 = parseFloat(frm.a2.value);
+	//proses
+	var total = angka1 + angka2;
+	//penempatan hasil
+	frm.hasil.value = total;
+}
+function kurang(){
+	//tangkap proses request form & casting / konversi tipe data
+	var frm = document.getElementById("form");
+	var angka1 = parseFloat(frm.a1.value);
+	var angka2 = parseFloat(frm.a2.value);
+	//proses
+	var total = angka1 - angka2;
+	//penempatan hasil
+	frm.hasil.value = total;
+}
+function bagi(){
+	//tangkap proses request form & casting / konversi tipe data
+	var frm = document.getElementById("form");
+	var angka1 = parseFloat(frm.a1.value);
+	var angka2 = parseFloat(frm.a2.value);
+	//proses
+	var total = angka1 / angka2;
+	//penempatan hasil
+	frm.hasil.value = total;
+}
+function kali(){
+	//tangkap proses request form & casting / konversi tipe data
+	var frm = document.getElementById("form");
+	var angka1 = parseFloat(frm.a1.value);
+	var angka2 = parseFloat(frm.a2.value);
+	//proses
+	var total = angka1 * angka2;
+	//penempatan hasil
+	frm.hasil.value = total;
+}
+function pangkat(){
+	//tangkap proses request form & casting / konversi tipe data
+	var frm = document.getElementById("form");
+	var angka1 = parseFloat(frm.a1.value);
+	var angka2 = parseFloat(frm.a2.value);
+	//proses
+	var total = Math.pow(angka1, angka2);
+	//penempatan hasil
+	frm.hasil.value = total;
+}
+function kosongkan(){
+	var frm = document.getElementById("form");
+	frm.a1.value = "";
+	frm.a2.value = "";
+	frm.hasil.value = "";
+}

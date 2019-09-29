@@ -1,0 +1,19 @@
+Tag <html>
+
+Setelah DTD, tag berikutnya adalah tag <html>.
+
+Ini adalah tag pembuka dari keseluruhan halaman web. Semua kode HTML harus berada di dalam tag ini. Tag html dimulai dengan <html> dan diakhiri dengan </html>
+
+Tag <head>
+
+Elemen pada tag <head> umumnya akan berisi berbagai definisi halaman, seperti kode CSS, JavaScript, dan kode-kode lainnya yang tidak tampil di browser.
+
+Tag <title> 
+dalam contoh kita sebelumnya digunakan untuk menampilkan title dari sebuah halaman web. Title ini biasanya ditampilkan pada bagian paling atas web browser. Contohnya pada tampilan halaman.html, ‘Title dari Websiteku’ akan ditampilkan pada tab browser.
+
+Tag <body>
+
+Tag <body> akan berisi semua elemen yang akan tampil dalam halaman web, seperti paragraf, tabel, link, gambar, dll. Tag body ini ditutup dengan </body>. Sebagian besar waktu kita dalam merancang web akan dihabiskan di dalam tag <body> ini.
+
+Perhatikan bahwa setiap tag akan diakhiri dengan penutup tag. Termasuk <html> yang merupakan tag paling awal dari sebuah halaman web.
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intelectual Muslim</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function selamat()
+		{
+			var nama = document.getElementById("nama");
+			var alamat = document.getElementById("alamat");
+			var ttl = document.getElementById("ttl");
+			var email = document.getElementById("email");
+			var nohp = document.getElementById("nohp");
+		
+			if (nama.value == "")
+				alert("Lengkapi Data Anda");
+			else if (alamat.value == "")
+				alert("Alamat Anda Belum di Isi");
+			else if (ttl.value == "")
+				alert("TTL Anda Belum di Isi");
+			else if (email.value == "")
+				alert("E-mail Anda Belum di Isi");
+			else if (nohp.value == "")
+				alert("No Hp Anda Belum di Isi");
+			else
+				alert("Data Anda Telah Disimpan");
+		}
+	</script>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+	</div>
+	<div class="menu">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="profil.html">Profil</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="#">Gallery</a></li>
+		</ul>
+	</div>
+	<div class="textberjalan">
+		<marquee scrollamount="3" onmouseover="this.stop();" onmouseout="this.start();">Selamat Datang Saudaraku Di Website Sederhana Ini. Jangan Lupa Bahagia. Selamat Membaca!!</marquee>
+	</div>
+		<div id="kontak">
+			<div class="kontak">
+			<h2> Kontak Kami </h2><br>
+				<form id="formulir">
+				<table class="tablekontak">
+				<tr>
+					<td> Nama Lengkap </td>
+					<td> &nbsp; <input type=text id="nama" name="txtNama" size="20"> </td>
+				</tr>
+				<tr>
+					<td> Alamat </td>
+					<td> &nbsp; <input type=text id="alamat" name="txtalamat" size="20"> </td>
+				</tr>
+				<tr>
+					<td> Tempat tanggal lahir </td>
+					<td> &nbsp; <input type=text id="ttl" name="txtttl" size="20"> </td>
+				</tr>
+				<tr>
+					<td> E-mail</td>
+					<td> &nbsp; <input type=text id="email" name="txtemail" size="20"> </td>
+				</tr>
+				<tr>
+					<td> No Hp </td>
+					<td> &nbsp; <input type=text id="nohp" name="txtnohp" size="20"> </td>
+				</tr>
+				<tr>
+					<td>  Saran </td>
+					<td> &nbsp; <textarea cols="38" rows="7" style="resize: none"></textarea> </td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>	
+				
+				<tr align="center">
+					<td>&nbsp;</td>
+					<td><input type=button name="proses" onclick="selamat()" value="Simpan">&nbsp;&nbsp;&nbsp;<input type=reset name="unproses" value="Reset"> </td>
+				</tr>
+				
+			</table>
+			</form>
+			</div>
+		</div>
+		<div class="footer">Copyright &copy2017 Developed PeTIK | <a href="https://zulkifli860.wordpress.com">Zulkifli Jufri</a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,314 @@
+*{ 
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image:url(images/kayu2.jpeg);
+	text-align: center;
+	font-family: verdana,arial,helvetica;
+	font-size: 12px;
+}
+
+p{
+	font-size: 15px;
+	color:salmon;
+}
+
+h2{
+	font-size: 20px;
+	color: white;
+	margin-top:0px;
+}
+
+h3{
+	font-size: 19px;
+	margin-top: 8px;
+}
+
+#container{
+background-color: #ffffcc;
+width: 1000px;
+margin: auto;
+text-align: left;
+padding: 2px;
+}
+
+#header{
+	width:100%;
+	height: 220px;
+	background-image: url(images/header.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.menu{
+	width: 100%;
+	height: 35px;
+	background-color: maroon;
+	text-align: center;
+	font-family:verdana,arial,helvetica ;
+}
+
+.menu ul{
+	margin: 0px;
+	padding: 0px;
+
+}
+.menu ul li{
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 34px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #e6e6e6;
+}
+
+.menu li:hover{
+	background-color:#df2020;
+	height:35px; 
+}
+
+.menu li a:hover{
+	color: #00bfff;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+
+.textberjalan{
+	color: #fff;
+	font-size: 22px;
+	height: 30px;
+	line-height: 32px;
+	background-color: #333;
+	
+}
+
+.isi{
+	width: 70%;
+	padding: 6px;
+	background-color:#ff9900;
+}
+
+.isiposting{
+	background-color:#bc9d64;
+	width: 98%;
+	height: 190px;
+	margin-top: 3px;
+	margin-bottom:5px;
+	padding: 5px;
+}
+
+.isiposting p{
+	margin-top: 5px;
+	padding: 5px;
+	color: #fff;
+}
+
+.isiposting a{
+	text-decoration: none;
+	color:maroon;
+}
+
+.gambarutama{
+	float: left;
+	width: 150px;
+	height: 176px;
+	margin-right:5px; 
+	margin-top:2px;
+	padding:2px;
+	border: 1px solid #fff;
+}
+
+.right{
+	width: 27%;
+	float: right;
+	line-height:27px;
+	margin-top: 2px;
+	background-color:#ff9900;
+	border: 2px solid red;
+}
+
+.kanan img{
+	width: 96%;
+	height: 180px;
+	margin-left:5px;
+	margin-top: 4px;
+}
+
+.kananbawah{
+	background-color: skyblue;
+}
+
+.kananbawah h1{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	background-color: tomato;
+	font-family: arial,verdana;
+}
+
+.kananbawah ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.kananbawah ul li{
+	font-weight: bold;
+}
+
+.kananbawah li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: 15px;
+	
+}
+
+.kananbawah li a:hover{
+	color: salmon;
+}
+
+.footer{
+	width:100%;
+	height: 80px;
+	background-color: maroon;
+	padding-top: 30px;
+	text-align: center;
+	line-height: 50px;
+	font-family: arial,verdana;
+	font-size: 23px;
+	color: #fff;
+}
+
+.footer a{
+	font-size: 23px;
+	font-style: arial;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer a:hover{
+	color:skyblue;
+}
+
+.biodata {
+	background-color: #bc9d64;
+	height	: auto;
+	margin-bottom: 5px;
+	padding	:3px;
+}
+
+.biodata h2{
+	text-align: center;
+	color: maroon;
+	font-size	: 20px;
+	font-weight : bold;
+}
+
+.biodata td{
+	padding: 1px;
+}
+
+.profil {
+	width: 200px;
+	height: 292px;
+	display: block;
+	float: right;
+	padding-right: 5px;
+}
+.profil h2{
+	text-align :center;
+	color: maroon;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#kontak {
+	padding: 5px;
+	width: 99%;
+	height: auto;
+	background-color: white;
+	position: relative;
+	margin: auto;
+	font-size: 20px;
+}
+.kontak {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.kontak h2 {
+	font-size: 24px;
+	background-color: maroon;
+	height: 40px;
+	color: white;
+	text-align: center;
+	margin-top: 4px;
+}
+
+.table{
+	color: maroon;
+	font-size: 17px;
+	border:1px solid maroon;
+}
+
+.tablekontak {
+	color: maroon;
+	padding-left: 20px;	
+}
+
+.isipostingan1{
+	background-color:#bc9d64;
+	padding: 5px;
+}
+
+.isipostingan1 p{
+	color: #fff;
+	margin: 5px 5px 5px 5px;
+	text-align: justify;
+}
+
+.isipostingan1 .gambarutama{
+	padding: 5px;
+}
+
+.isipostingan1 h3{
+	margin-left: 5px;
+}
+
+.isipostingan2{
+	background-color:#bc9d64;
+	padding: 5px;
+}
+
+.isipostingan2 p{
+	color: #fff;
+	margin: 5px 0px 5px 5px;
+	text-align: justify;
+}
+
+.isipostingan2 .gambarutama{
+	padding: 5px;
+}
+
+.isipostingan3{
+	background-color:#bc9d64;
+	padding: 5px;
+}
+
+.isipostingan3 p{
+	color: #fff;
+	margin: 5px 0px 5px 5px;
+	text-align: justify;
+}
+
+.isipostingan3 .gambarutama{
+	padding: 5px;
+}

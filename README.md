@@ -1,2 +1,1 @@
-# webdesign-petik
-Learnig HTML at Petik V
+# PeTIK V - HTML

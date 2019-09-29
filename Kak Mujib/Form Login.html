@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title>TK TPA AL HIDAYAH</title>
+	<style>
+		table{
+			border-style: dashed;
+			border-width: 10px;
+			border-color: salmon;
+		}
+	</style>
+</head>
+<body>
+	<h1><center>Form Pendaftaran Santri Baru</h1></center>
+	<hr>
+	<p style="color:red;">Tanda (*) wajib diisi</p>
+	<fieldset>
+		<legend>Data Santri</legend>
+		<table align="center">
+			<tr>
+				<td>Nama Lengkap<font color="red">*</td>
+				<td>:</td>
+				<td><input type="text" name="namalengkap" size="30" placeholder="Masukkan nama anda!" required /></td>
+			</tr>
+			<tr>
+				<td rowspan="2" valign="top">Jenis Kelamin<font color="red">*</td>
+				<td valign="top">:</td>
+				<td><input type="radio" name="gender" required />Laki-laki<br>
+				<input type="radio" name="gender" required />Perempuan</td>
+			</tr>
+			<tr>
+
+			</tr>
+			<tr>
+				<td>Tempat,Tanggal Lahir<font color="red">*</td>
+				<td>:</td>
+				<td><input type="text" name="tempat" placeholder="Tempat lahir anda!">,<input type="text" name="tanggal lahir" placeholder="Tanggal lahir anda!"></td>
+			</tr>
+			<tr>
+				<td>Anak ke -</td>
+				<td>:</td>
+				<td><input type="number" name="anak" min="1" max="10"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td><textarea name="alamat" textarea cols="30" rows="3" style="resize:none;"></textarea></td>
+			</tr>
+			<tr>
+				<td>Pendidikan</td>
+				<td>:</td>
+				<td>
+				<select>
+				<Option value="pddk">-- Pilih Pendidikan--</option>
+				<Option value="TK">TK</option>
+				<Option value="SD">SD</option>
+				<Option value="SMP">SMP</option>
+				<Option value="SMA">SMA</option>
+				<Option value="S1">S1</option>
+				<Option value="S2">S2</option>
+				</select>
+			</tr>
+	</fieldset>
+	</table>
+	<p align="center">
+	<input type="submit" name=proses value="Submit"/> <input type="reset" name=unproses value="Batal"/>
+	</p>
+</body>
+</html>
